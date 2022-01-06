@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodActivity"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-27dp">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="333dp"
+            android:layout_height="51dp"
+            android:text="Order And Eat"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="229dp"
+            android:layout_height="38dp"
+            android:text="Hello!"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:text="Hello!" />
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listV"
+
+            ></ListView>
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="361dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:textColor = "@color/black"
+            android:ems="10"
+            android:hint="Find Your Food"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textAlignment="textStart"
+            android:textColorHint="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="366dp"
+            android:layout_height="407dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            app:srcCompat="@drawable/delivery" />
+
+        <TableLayout
+            android:layout_width="180dp"
+            android:layout_height="76dp">
+            android:layout_gravity="bottom"
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@id/fab3"
+                    android:layout_width="60dp"
+                    android:layout_height="66dp"
+                    android:background="#ff5e00"
+                    android:elevation="3dp"
+                    android:src="@drawable/ic_menu_gallery"
+                    app:backgroundTint="#ff5e00"
+                    app:maxImageSize="30dp"
+                    app:tint="#ffffff"
+                    tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@id/fab2"
+                    android:layout_width="60dp"
+                    android:layout_height="66dp"
+                    android:background="#ff5e00"
+                    android:elevation="3dp"
+                    android:src="@drawable/ic_menu_camera"
+                    app:backgroundTint="#ff5e00"
+                    app:maxImageSize="30dp"
+                    app:tint="#ffffff"
+                    tools:ignore="MissingConstraints,SpeakableTextPresentCheck"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@id/exit"
+                    android:layout_width="60dp"
+                    android:layout_height="66dp"
+                    android:background="#ff5e00"
+                    android:elevation="3dp"
+                    android:src="@drawable/exit"
+                    app:backgroundTint="#ff5e00"
+                    app:maxImageSize="30dp"
+                    app:tint="#ffffff"
+                    tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

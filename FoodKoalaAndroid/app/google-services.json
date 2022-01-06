@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276003414495",
+    "project_id": "foodkoala",
+    "storage_bucket": "foodkoala.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276003414495:android:dd5e3c029fdde6656ea46a",
+        "android_client_info": {
+          "package_name": "com.example.foodkoalaandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276003414495-e17krfj7nmdpfmibb69shlf7kemd3cr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-LbaG1Y88aQLswOeIyYdzOAtLGdcO8o8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276003414495-e17krfj7nmdpfmibb69shlf7kemd3cr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

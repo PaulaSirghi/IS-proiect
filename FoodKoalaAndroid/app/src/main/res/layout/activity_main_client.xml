@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schema.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCD3FF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivityClient">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="260dp"
+        android:layout_height="174dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/food" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:gravity="center"
+        android:text="Bine ati venit"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="108dp"
+                android:textSize="25dp"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:text="Va multumim pentru inregistrare. Va rugam completati urmatoarele campuri" />
+    <EditText
+        android:id="@+id/adresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="adresa"
+        android:textSize="22dp"
+        />
+    <EditText
+        android:id="@+id/cont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contul"
+        android:textSize="22dp"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/purple_200">
+
+    </Button>
+</LinearLayout>
